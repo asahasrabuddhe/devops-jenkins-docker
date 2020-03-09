@@ -1,4 +1,4 @@
-FROM jenkins/jenkins:2.147-slim
+FROM jenkins/jenkins:2.224-slim
 
 # jenkins image runs as jenkins user and not root so elevate
 USER root
