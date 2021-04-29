@@ -1,0 +1,24 @@
+version: 2
+updates:
+- package-ecosystem: docker
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "23:30"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: jenkins/jenkins
+    versions:
+    - 2.277.pre.slim
+    - 2.278.pre.slim
+    - 2.279.pre.slim
+    - 2.280.pre.slim
+    - 2.281.pre.slim
+    - 2.282.pre.slim
+    - 2.283.pre.slim
+    - 2.284.pre.slim
+    - 2.285.pre.slim
+    - 2.286.pre.slim
+    - 2.287.pre.slim
+    - 2.288.pre.slim
+    - 2.289.pre.slim
